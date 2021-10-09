@@ -23,17 +23,46 @@ public class ArithmetischeOperationen {
         System.out.println(r);
         System.out.println(o);
 
-        printResult(2 + 3);
-        int result = add(5 , 6);
-        printResult(result);
-    }
+        double addRes= addieren(a,b);
+        double minRes= substrahieren(a,b);
+        double mulRes= multiplizieren(a,b);
+        double divRes= dividieren(a,b);
 
-    public static void printResult(int result){
-        System.out.println(result);
-    }
+        printResult(addRes);
+        printResult(minRes);
+        printResult(mulRes);
+        printResult(divRes);
 
-    public static int add(int a, int b){
+
+
+
+
+
+    }
+    public static int addieren(int a, int b){
 
         return a + b;
     }
+
+    public static int substrahieren(int a, int b){
+
+        return a - b;
+
+    }
+
+    public static int multiplizieren(int a, int b){
+
+        return a * b;
+    }
+
+    public static int dividieren(int a, int b){
+
+        return a / b;
+    }
+
+    public static void printResult(double result){
+        System.out.println("Result is --- " + result);
+    }
+
+
 }
