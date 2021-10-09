@@ -6,7 +6,7 @@ public class FindEven {
 
         while (counter <= input){
 
-            System.out.println("Input: " + counter);
+            System.out.println("Input : " + counter);
             counter += 2;
         }
     }
