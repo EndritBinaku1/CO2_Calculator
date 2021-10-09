@@ -9,7 +9,7 @@ public class ArrayDemo {
 
        // double summe = article[0] +article[1] +article[2] + article[3] + article[4];
         double summe = 0;
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < article.length; i++) {
 
             summe = summe + article[i];
         }
