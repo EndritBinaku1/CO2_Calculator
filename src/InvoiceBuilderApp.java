@@ -12,7 +12,7 @@ public class InvoiceBuilderApp {
         article3 = 2.9;
 
         //double summe = article1 + article2 + article3 + article4 + article5;
-        double summe = summeCalculate(article1, article2, article3, article4, article4);
+        double summe = summeCalculate(article1, article2, article3, article4, article5);
 
         System.out.println("Gesamtkosten: " + summe);
     }
